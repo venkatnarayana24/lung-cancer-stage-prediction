@@ -36,7 +36,7 @@ Explainability: Grad-CAM for heatmap visualization
 
 .
 ├── efficientnet_lung_cancer.pth        # Trained model weights (Place this in root)
-├── final.py                                # Streamlit app (main file)
+├── app.py                                # Streamlit app (main file)
 ├── README.md                           # Project description
 🚀 Running the App
 Install dependencies:
@@ -45,7 +45,7 @@ pip install streamlit torch torchvision pillow matplotlib opencv-python
 Ensure the model file is present: Place efficientnet_lung_cancer.pth in the same directory as f.py.
 
 Start the app:
-streamlit run final.py
+streamlit run app.py
 
 📊 Model Performance (on validation set)
 Accuracy: 92.5%
