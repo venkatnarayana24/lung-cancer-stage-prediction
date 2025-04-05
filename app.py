@@ -103,7 +103,7 @@ transform = transforms.Compose([
 ])
 
 st.title("🔬 AI-Powered Lung Cancer Prediction")
-st.write("Upload a **CT scan** and get an instant lung cancer stage prediction with an explainable AI heatmap.")
+st.write("Upload a **CT scan** and get an instant lung cancer stage prediction.")
 
 # Load Model
 model = load_model()
